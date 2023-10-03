@@ -4,106 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 01</title>
+
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
-<style>
 
-    *{
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    body {
-        text-align: center;
-        background-color: rgb(209, 183, 158);
-        background-image: url("img/pattern.png");
-        background-position: cover;
-        background-attachment: fixed;
-    }
-
-    header {
-        background-color: rgb(151, 68, 30);
-        color: white;
-        padding: 10px;
-        
-    }
-
-    header h1 {
-        font-size: 4em;
-        padding: 40px;
-    }
-
-    header h2 {
-        font-size: 3em;
-        padding: 10px;
-        background-color: rgb(255, 255, 255);
-        border-radius: 20px;
-        color: rgb(151, 68, 30);
-    }
-
-    main{
-        color: rgb(43, 43, 43);
-        padding: 20px;
-        font-size: 1.5em;
-        text-align: center;
-        margin: 0 auto;
-        width: 800px;
-        background-color: white;
-    }
-
-    main h3 {
-        font-size: 2em;
-    }
-
-
-
-    #alfabeto {
-        margin: auto;
-        
-    }
-     
-    
-    .pron{
-        font-size: 30px;
-    }
-    
-    .letra {
-      width: 400px;
-      margin: 20px auto;
-      padding: 10px;
-      text-align: center;
-      background: linear-gradient(to bottom,rgb(221, 139, 73), rgb(235, 124, 50));
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
-      color: white;
-      border-radius: 20px;
-    }
-    
-
-    .let {
-        text-shadow: 3px 1px rgba(0, 0, 0, 0.397);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 80px;
-        margin-top: 15px;
-    }
-
-    .pron {
-        color:#000000;
-        background-color: white;
-    }
-
-    img {
-        width: 100px;
-        margin: 10px;
-        box-sizing: border-box;
-        border-radius: 50%;
-    }
-
-    img:hover {
-        border: 5px solid white;
-
-        transition: 0.1s;
-    }
-  </style>
 <body>
     <header>
         <h1>ENGLISH</h1>
@@ -116,159 +20,281 @@
                 <p>O alfabeto em inglês é pronunciado de uma forma diferente que em português, por mais que algumas palavras sejam parecidas.</p>
                 <div id="alfabeto">
 
-                    <div class="letra">
-                      <p class="let">Aa</p>
-                      <p class="pron">ei</p>
-                      <img src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Bb</p>
-                      <p class="pron">bi</p>
-                      <img src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Cc</p>
-                      <p class="pron">si</p>
-                      <img src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Dd</p>
-                      <p class="pron">di</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Ee</p>
-                      <p class="pron">í</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Ff</p>
-                      <p class="pron">ef</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Gg</p>
-                      <p class="pron">dji</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Hh</p>
-                      <p class="pron">eich</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Ii</p>
-                      <p class="pron">ái</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Jj</p>
-                      <p class="pron">djei</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Kk</p>
-                      <p class="pron">kei</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Ll</p>
-                        <p class="pron">el</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Mm</p>
-                      <p class="pron">em</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Nn</p>
-                      <p class="pron">en</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Oo</p>
-                      <p class="pron">ou</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Pp</p>
-                      <p class="pron">pi</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Qq</p>
-                      <p class="pron">kju</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Rr</p>
-                      <p class="pron">ar</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Ss</p>
-                      <p class="pron">es</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Tt</p>
-                      <p class="pron">ti</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Uu</p>
-                      <p class="pron">iu</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Vv</p>
-                      <p class="pron">vi</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Ww</p>
-                      <p class="pron">dabliu</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Xx</p>
-                      <p class="pron">ecs</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Yy</p>
-                      <p class="pron">uái</p>
-                    </div>
-                  
-                    <div class="letra">
-                      <p class = "let">Zz</p>
-                      <p class="pron">zed</p>
-                    </div>
-                  
+                  <div class="letra">
+                    <p class="let">Aa</p>
+                    <p class="pron">ei</p>
+                    <img onclick="la()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_a" src="audio/letter-a.mp3"></audio>
                   </div>
-
-
+                  
+                  <div class="letra">
+                    <p class="let">Bb</p>
+                    <p class="pron">bi</p>
+                    <img onclick="lb()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_b" src="audio/letter-b.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Cc</p>
+                    <p class="pron">si</p>
+                    <img onclick="lc()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_c" src="audio/letter-c.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Dd</p>
+                    <p class="pron">di</p>
+                    <img onclick="ld()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_d" src="audio/letter-d.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Ee</p>
+                    <p class="pron">í</p>
+                    <img onclick="le()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_e" src="audio/letter-e.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Ff</p>
+                    <p class="pron">ef</p>
+                    <img onclick="lf()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_f" src="audio/letter-f.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Gg</p>
+                    <p class="pron">dji</p>
+                    <img onclick="lg()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_g" src="audio/letter-g.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Hh</p>
+                    <p class="pron">eich</p>
+                    <img onclick="lh()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_h" src="audio/letter-h.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Ii</p>
+                    <p class="pron">ái</p>
+                    <img onclick="li()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_i" src="audio/letter-i.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Jj</p>
+                    <p class="pron">djei</p>
+                    <img onclick="lj()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_j" src="audio/letter-j.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Kk</p>
+                    <p class="pron">kei</p>
+                    <img onclick="lk()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_k" src="audio/letter-k.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Ll</p>
+                    <p class="pron">el</p>
+                    <img onclick="ll()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_l" src="audio/letter-l.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Mm</p>
+                    <p class="pron">em</p>
+                    <img onclick="lm()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_m" src="audio/letter-m.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Nn</p>
+                    <p class="pron">en</p>
+                    <img onclick="ln()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_n" src="audio/letter-n.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Oo</p>
+                    <p class="pron">ou</p>
+                    <img onclick="lo()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_o" src="audio/letter-o.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Pp</p>
+                    <p class="pron">pi</p>
+                    <img onclick="lp()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_p" src="audio/letter-p.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Qq</p>
+                    <p class="pron">kju</p>
+                    <img onclick="lq()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_q" src="audio/letter-q.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Rr</p>
+                    <p class="pron">ar</p>
+                    <img onclick="lr()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_r" src="audio/letter-r.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Ss</p>
+                    <p class="pron">es</p>
+                    <img onclick="ls()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_s" src="audio/letter-s.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Tt</p>
+                    <p class="pron">ti</p>
+                    <img onclick="lt()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_t" src="audio/letter-t.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Uu</p>
+                    <p class="pron">iu</p>
+                    <img onclick="lu()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_u" src="audio/letter-u.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Vv</p>
+                    <p class="pron">vi</p>
+                    <img onclick="lv()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_v" src="audio/letter-v.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Ww</p>
+                    <p class="pron">dabliu</p>
+                    <img onclick="lw()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_w" src="audio/letter-w.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Xx</p>
+                    <p class="pron">ecs</p>
+                    <img onclick="lx()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_x" src="audio/letter-x.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Yy</p>
+                    <p class="pron">uái</p>
+                    <img onclick="ly()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_y" src="audio/letter-y.mp3"></audio>
+                  </div>
+                  
+                  <div class="letra">
+                    <p class="let">Zz</p>
+                    <p class="pron">zed</p>
+                    <img onclick="lz()" src="https://cdn-icons-png.flaticon.com/512/189/189638.png" alt="botão play">
+                    <audio id="letter_z" src="audio/letter-z.mp3"></audio>
+                  </div>
             </section>
             <section id="exercicio">
-
+              <h3>- EXERCÍCIOS -</h3>
+              <h4>1. Soletre as palavras</h4>
+              <br>
+              <p>H O U S E</p>
+              <br>
+              <p>C H A I R</p>
+              <br>
+              <p>H E L L O</p>
+              <br>
+              <p>M U S I C</p>
+              <br>
+              <p>Z O O M</p>
+              <br>
+              <p>B L O C K</p>
+              <br>
+              <p>Y E S</p>
             </section>
         </article>
+
         <article>
             <section id="conteudo">
-
+              <h3>Alfabeto Numérico</h3>
+              <p>Aparenderemos o alfabeto numérico do 1 até 1000</p>
+              <br>
+              <ul>
+                <li><p>1</p> <p>One</p></li>
+                <li><p>2</p> Two</li>
+                <li><p>3</p> Three</li>
+                <li><p>4</p> Four</li>
+                <li><p>5</p> Five</li>
+                <li><p>6</p> Six</li>
+                <li><p>7</p> Seven</li>
+                <li><p>8</p> Eight</li>
+                <li><p>9</p> Nine</li>
+                <li><p>10</p> Ten</li>
+                <li><p>11</p> Eleven</li>
+                <li><p>12</p> Twelve</li>
+                <li><p>13</p> Thirteen</li>
+                <li><p>14</p> Fourteen</li>
+                <li><p>15</p> Fifteen</li>
+                <li><p>16</p> Sixteen</li>
+                <li><p>17</p> Seventeen</li>
+                <li><p>18</p> Eighteen</li>
+                <li><p>19</p> Nineteen</li>
+                <li><p>20</p> Twenty</li>
+                <li><p>30</p> Thrity</li>
+                <li><p>40</p> Forty</li>
+                <li><p>50</p> Fifty</li>
+                <li><p>60</p> Sixty</li>
+                <li><p>70</p> Seventy</li>
+                <li><p>80</p> Eighty</li>
+                <li><p>90</p> Ninety</li>
+                <li><p>100</p> One Hundred</li>
+                <li><p>1.000</p> One Thousand</li>
+              </ul>
+              <p>Também temos os sinais matemáticos</p>
+              <ul>
+                <li><p>+</p> Plus</li>
+                <li><p>-</p> Minus</li>
+                <li><p>x</p> Times</li>
+                <li><p>÷</p> Divided by</li>
+                <li><p>=</p> Equals</li>
+              </ul>
             </section>
             <section id="exercicio">
+              <h3>- EXERCÍCIOS -</h3>
+              <h4>Escreva os números abaixo:</h4>
+              <p>a - Two <input type="text" name="res1" id="res1" onchange="verde()"></p>
+              <p>b - Seven <input type="text" name="res2" id="res2" onchange="verde()"></p>
+              <p>c - Nine <input type="text" name="res3" id="res3" onchange="verde()"> </span></p>
+              <p>d - Twenty <input type="text" name="res4" id="res4" onchange="verde()"></p>
+              <p>e - One <input type="text" name="res5" id="res5" onchange="verde()">  </p>
+              <p>f - Eleven <input type="text" name="res6" id="res6" onchange="verde()"></p>
+              <p>g - Sixteen <input type="text" name="res7" id="res7" onchange="verde()">  </p>
+              <p>h -  Fifty Four<input type="text" name="res8" id="res8" onchange="verde()"></p>
+              <p>i - Eight <input type="text" name="res9" id="res9" onchange="verde()">  </p>
+              <p>j - Ten<input type="text" name="res10" id="res10" onchange="verde()"></p>
 
+              <h4>Resolva as equações abaixo</h4>
+              <p>a - One plus one <input type="text" name="res11" id="res11" onchange="verde()"></p>
+              <p>a - Eight minus Two <input type="text" name="res12" id="res12" onchange="verde()"></p> 
+              <p>a - Three times Four <input type="text" name="res13" id="res13" onchange="verde()"></p> 
+              <p>a - Four divided by Two <input type="text" name="res14" id="res14" onchange="verde()"></p> 
+              <p>a -Two times Two <input type="text" name="res15" id="res15" onchange="verde()"></p> 
             </section>
         </article>
         
     </main>
     <footer>
+      
 
     </footer>
+    <script src="script/codigo.js"></script>
 </body>
 </html>

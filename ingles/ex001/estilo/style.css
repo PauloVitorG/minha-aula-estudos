@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(209, 183, 158);
+    background-image: url("img/pattern.png");
+    background-position: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgb(151, 68, 30);
+    color: white;
+    padding: 10px;
+    
+}
+
+header h1 {
+    font-size: 4em;
+    padding: 40px;
+}
+
+header h2 {
+    font-size: 3em;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: rgb(151, 68, 30);
+}
+
+main{
+    color: rgb(43, 43, 43);
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+    width: 1300px;
+    background-color: white;
+}
+
+main h3 {
+    font-size: 2em;
+    padding: 20px;
+}
+
+h4 {
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 1em 0px;
+}
+
+section {
+    padding: 20px;
+}
+
+
+#alfabeto {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+p {
+    margin-bottom: 20px;
+}
+ 
+
+.pron{
+    font-size: 30px;
+}
+
+.letra {
+
+    
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(to bottom,rgb(221, 139, 73), rgb(235, 124, 50));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
+    color: white;
+    border-radius: 20px;
+}
+
+
+.let {
+    text-shadow: 3px 1px rgba(0, 0, 0, 0.397);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin-top: 15px;
+}
+
+.pron {
+    color:#000000;
+    background-color: white;
+}
+
+img {
+    width: 100px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+img:hover {
+    border: 5px solid white;
+
+    transition: 0.1s;
+}
+
+ul {
+    text-align: left;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    
+}
+
+li {
+    background-color: white;
+    box-shadow: 0 0px 10px  rgba(0, 0, 0, 0.411);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: #32BEA6 ;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    width: 700px;
+}
+
+#exercicio {
+    background-color: rgba(221, 140, 73, 0.425);
+    padding: 70px;
+    text-align: left;
+}
+
+#exercicio > p {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    
+
+}
+
+input {
+    width: 90px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    outline: none;
+    
+}
