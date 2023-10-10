@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #3EAD88;
+    --cor2: #74FACE;
+    --cor3: #8FFFDA;
+    --cor4: #AD462D;
+    --cor5: #FA8E73;
+}
+
+table {
+border-radius: 10px;
+
+}
+
+table td {
+    border: 2px solid var(--cor1);
+    color: #3EAD88;
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+thead {
+    border-radius: 0px;
+    color: #AD462D;
+    border: 2px solid #AD462D;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+header {
+    background-color: var(--cor4);
+    text-align: center;
+    padding: 10px;
+}
+header h1 {
+    color: white;
+}
+main {
+    background-color: white;
+    padding: 30px;
+    width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: var(--cor1);
+    margin: 40px 0px;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+
+.cont {
+    margin-bottom: 50px;
+}
+
+.cont > p {
+    padding: 20px 0px;
+}
+
+.contex .questao {
+    margin: 20px 0px;
+}
+
+.questao input {
+    border: none;
+    border-bottom: 3px solid var(--cor4);
+    width: 50px;
+    height: 30px;
+    font-size: 1em;
+    color: var(--cor4);
+    text-align: center;
+    
+}
+
+textarea:focus, input:focus, select:focus {
+        outline: 0;
+    }
