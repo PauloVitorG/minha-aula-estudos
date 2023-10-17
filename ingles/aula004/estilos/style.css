@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #42c297;
+    --cor2: #74ddba;
+    --cor3: #8FFFDA;
+    --cor4: #AD462D;
+    --cor5: #ffb9a8;
+}
+
+table {
+border-radius: 10px;
+border-collapse: collapse;
+margin: auto;
+}
+
+table td {
+    border: 2px solid var(--cor1);
+    color: #3EAD88;
+    padding: 15px 10px;
+    text-align: center;
+    
+}
+
+thead {
+    border-radius: 0px;
+    color: #AD462D;
+    border: 2px solid #AD462D;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: rgb(39, 39, 39);
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor3));
+    background-attachment: fixed;
+}
+
+header {
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: inherit;
+}
+header h1 {
+    color: white;
+}
+main {
+    background-color: white;
+    padding: 30px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.);
+    z-index: -1;
+}
+
+h2 {
+    color: var(--cor1);
+    margin: 40px 0px;
+    text-align: center;
+}
+
+h3 {
+    padding: 5px;
+    margin: 10px 0px;
+    background-color: var(--cor4);
+
+}
+
+.cont {
+    margin-bottom: 50px;
+}
+
+.cont > p {
+    padding: 20px 0px;
+}
+
+.contex .questao {
+    margin: 20px 0px;
+    background-color: var(--cor5);
+    padding: 10px;
+}
+
+.questao input {
+    border: none;
+    border-bottom: 3px solid var(--cor4);
+    width: 50px;
+    height: 30px;
+    font-size: 0.8em;
+    background-color: var(--cor5);
+    color: var(--cor4);
+    text-align: center;
+    
+}
+
+textarea:focus, input:focus, select:focus {
+        outline: 0;
+    }
+
+    strong {
+        font-size: 1.1em;
+    }
+
+    .tempo {
+        color:rgba(0, 0, 0, 0.5);
+    }
